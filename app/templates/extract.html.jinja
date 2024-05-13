@@ -1,4 +1,19 @@
 {% extends "base.html.jinja" %}
 {% block content %}
-    <p>extract</p>
+<form method="post" action="{{url_for('extract')}}" class="container">
+  <div class="row 3-g align-itmes-center"></div>
+    <div class="col-auto">
+        <label for="product_id" class="col-from-label">kod produktu z ceneo</label>
+    </div>
+    <div class="col-auto">
+        <input type="text" name="product_id" class="form-control" id="product_id" aria-describedby="product_idHelpline" placeholder="podaj kod produktu">
+    </div>
+    <div class="col-auto">
+        <span id="product_idHelpline" class="form-text">Kod produktu musi zawierac 5-10 cyfr.</span>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-dark">pobierz opinie</button>
+    </div>
+  </div>
+</form>
 {% endblock content %}
