@@ -1,37 +1,68 @@
+/* Resetowanie domyślnych stylów i ustawienie podstawowych stylów dla strony */
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #d6c0c0;
-    color: #333;
+}
+
+/* Stylowanie nagłówka */
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Stylowanie nawigacji */
+.navbar {
+    background-color: #333; /* Kolor tła paska nawigacyjnego */
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none; /* Usunięcie punktów listy */
     margin: 0;
     padding: 0;
 }
 
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
+/* Stylowanie linków nawigacji */
+.navbar .nav-item {
+    display: inline; /* Ustawienie elementów w jednej linii */
 }
 
-h1 {
-    font-size: 36px;
-    color: chocolate;
+.navbar .nav-link {
+    display: inline-block;
+    color: white;
     text-align: center;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
-
-a {
-    color: #007bff;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+/* Zmiana koloru linków po najechaniu na nie myszką */
+.navbar .nav-link:hover {
+    background-color: #ddd; /* Kolor tła po najechaniu myszką */
+    color: black;
+}
+
+/* Stylowanie aktywnego linku */
+.navbar .nav-link.active {
+    background-color: #4CAF50; /* Kolor tła aktywnego linku */
+    color: white;
+}
+
+/* Stylowanie sekcji */
+section {
+    padding: 20px;
+}
+
+/* Stylowanie stopki */
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
