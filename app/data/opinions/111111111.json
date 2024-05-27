@@ -1,0 +1,32 @@
+[
+    {
+        "opinion_id": "17376131",
+        "author": "a...3",
+        "recommendation": "Polecam",
+        "rating": "5/5",
+        "content": "Torebka super. Jedynie kolor ciemniejszy niż na zdjęciu ale rownie ładny.",
+        "pros": [
+            "jakość",
+            "wygląd",
+            "wygoda"
+        ],
+        "cons": [],
+        "useful": "0",
+        "useless": "0",
+        "publish_date": "2023-04-07 15:08:37",
+        "purchase_date": "2023-03-24 23:26:54"
+    },
+    {
+        "opinion_id": "17431993",
+        "author": "i...a",
+        "recommendation": "Polecam",
+        "rating": "5/5",
+        "content": "Elegancka torebka",
+        "pros": [],
+        "cons": [],
+        "useful": "0",
+        "useless": "0",
+        "publish_date": "2023-04-21 20:45:07",
+        "purchase_date": "2023-04-06 22:55:41"
+    }
+]
